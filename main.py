@@ -1,9 +1,9 @@
-#Escreve um algoritmo em python que receba as duas primeiras linhas da matriz_
- # a=| a11 a12 a13 a14|
- #   | a21 a22 a23 a24|
- #   | -1   2   3   4 |
- #   | 1   -3   4  -5 |
-# e resolva o sistema Ax=b onde x=(x1,x2,x3,x4), b (-1,2,-1,3), e tenha uma unica solução.
+"""Escreve um algoritmo em python que receba as duas primeiras linhas da matriz_
+ a=  | a11 a12 a13 a14|
+     | a21 a22 a23 a24|
+     | -1   2   3   4 |
+     | 1   -3   4  -5 |
+ e resolva o sistema Ax=b onde x=(x1,x2,x3,x4), b (-1,2,-1,3), e tenha uma unica solução"""
    
 def Gaussiana(A, B):
   n = len(A)
